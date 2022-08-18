@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="children">
+			<Node name="child_0">
+				<Node name="children">
+					<Node name="child_0">
+						<Node name="children"/>
+						<Node name="properties">
+							<Node name="property_1">
+								<Prp name="basic" type="B" value="0"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="1"/>
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="name" type="S" value="Visible"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+							<Node name="property_0">
+								<Prp name="basic" type="B" value="0"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="name" type="S" value="Enabled"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+						</Node>
+						<Prp name="index" type="I" value="0"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="group name" type="S" value=""/>
+						<Prp name="class name" type="S" value="VCLObject(&quot;THintWindow&quot;)"/>
+						<Prp name="name" type="S" value="VCLObject(&quot;THintWindow&quot;)"/>
+					</Node>
+					<Node name="child_2">
+						<Node name="children"/>
+						<Node name="properties"/>
+						<Prp name="index" type="I" value="2"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="group name" type="S" value=""/>
+						<Prp name="class name" type="S" value="VCLObject(&quot;TDbEvents&quot;)"/>
+						<Prp name="name" type="S" value="VCLObject(&quot;TDbEvents&quot;)"/>
+					</Node>
+					<Node name="child_1">
+						<Node name="children">
+							<Node name="child_0">
+								<Node name="children"/>
+								<Node name="properties">
+									<Node name="property_1">
+										<Prp name="basic" type="B" value="0"/>
+										<Prp name="type" type="I" value="3"/>
+										<Prp name="index" type="I" value="1"/>
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="name" type="S" value="Visible"/>
+										<Prp name="value" type="B" value="0"/>
+										<Prp name="kind" type="I" value="0"/>
+									</Node>
+									<Node name="property_0">
+										<Prp name="basic" type="B" value="0"/>
+										<Prp name="type" type="I" value="3"/>
+										<Prp name="index" type="I" value="0"/>
+										<Prp name="selected" type="B" value="-1"/>
+										<Prp name="name" type="S" value="Enabled"/>
+										<Prp name="value" type="B" value="-1"/>
+										<Prp name="kind" type="I" value="0"/>
+									</Node>
+								</Node>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="group name" type="S" value=""/>
+								<Prp name="class name" type="S" value="VCLObject(&quot;TSpeedButton&quot;)"/>
+								<Prp name="name" type="S" value="VCLObject(&quot;TSpeedButton&quot;)"/>
+							</Node>
+						</Node>
+						<Node name="properties">
+							<Node name="property_1">
+								<Prp name="basic" type="B" value="0"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="1"/>
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="name" type="S" value="Visible"/>
+								<Prp name="value" type="B" value="0"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+							<Node name="property_0">
+								<Prp name="basic" type="B" value="0"/>
+								<Prp name="type" type="I" value="3"/>
+								<Prp name="index" type="I" value="0"/>
+								<Prp name="selected" type="B" value="-1"/>
+								<Prp name="name" type="S" value="Enabled"/>
+								<Prp name="value" type="B" value="-1"/>
+								<Prp name="kind" type="I" value="0"/>
+							</Node>
+						</Node>
+						<Prp name="index" type="I" value="1"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="group name" type="S" value=""/>
+						<Prp name="class name" type="S" value="VCLObject(&quot;TPanel&quot;)"/>
+						<Prp name="name" type="S" value="VCLObject(&quot;TPanel&quot;)"/>
+					</Node>
+				</Node>
+				<Node name="properties">
+					<Node name="property_1">
+						<Prp name="basic" type="B" value="0"/>
+						<Prp name="type" type="I" value="3"/>
+						<Prp name="index" type="I" value="1"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Visible"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+					</Node>
+					<Node name="property_0">
+						<Prp name="basic" type="B" value="0"/>
+						<Prp name="type" type="I" value="3"/>
+						<Prp name="index" type="I" value="0"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Enabled"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+					</Node>
+					<Node name="property_2">
+						<Prp name="basic" type="B" value="0"/>
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="index" type="I" value="2"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="WndCaption"/>
+						<Prp name="value" type="S" value=""/>
+						<Prp name="kind" type="I" value="3"/>
+					</Node>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="selected" type="B" value="-1"/>
+				<Prp name="group name" type="S" value=""/>
+				<Prp name="class name" type="S" value="TPowerDBGrid"/>
+				<Prp name="name" type="S" value="VCLObject(&quot;Grid&quot;)"/>
+			</Node>
+		</Node>
+		<Node name="properties"/>
+		<Prp name="mode" type="I" value="6"/>
+		<Prp name="identifier" type="S" value="Stores.Objects"/>
+		<Prp name="selected" type="B" value="-1"/>
+		<Prp name="group name" type="S" value=""/>
+		<Prp name="class name" type="S" value=""/>
+		<Prp name="name" type="S" value=""/>
+		<Prp name="version" type="I" value="1"/>
+	</Node>
+</Nodes>

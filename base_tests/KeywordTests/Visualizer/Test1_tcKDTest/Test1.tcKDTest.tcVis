@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="item0000000000">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="1456"/>
+					<Prp name="click point y" type="I" value="150"/>
+					<Prp name="datetime" type="D" value="44757.3389814815"/>
+					<Prp name="image file name" type="S" value="tcvi73680.png"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object bottom" type="I" value="163"/>
+					<Prp name="object left" type="I" value="1439"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.AMMain.pGlossaire.pMain.PageControl1.PanelGlossDrug.pcDrugs.tsDrugList.GridDrugsForm.tbConfig"/>
+					<Prp name="object right" type="I" value="1485"/>
+					<Prp name="object top" type="I" value="133"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi73680.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+			</Node>
+			<Node name="item0000000001">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="71"/>
+					<Prp name="click point y" type="I" value="45"/>
+					<Prp name="datetime" type="D" value="44757.3391087963"/>
+					<Prp name="image file name" type="S" value="tcvi73681.png"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object bottom" type="I" value="580"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.fGridConfig.PC"/>
+					<Prp name="object right" type="I" value="845"/>
+					<Prp name="object top" type="I" value="30"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi73681.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+			</Node>
+			<Node name="item0000000002">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="148"/>
+					<Prp name="click point y" type="I" value="330"/>
+					<Prp name="datetime" type="D" value="44757.339212963"/>
+					<Prp name="image file name" type="S" value="tcvi73682.png"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object bottom" type="I" value="347"/>
+					<Prp name="object left" type="I" value="133"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.fGridConfig.PC.pgSearch.Panel5.bDelMod"/>
+					<Prp name="object right" type="I" value="241"/>
+					<Prp name="object top" type="I" value="323"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi73682.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="2"/>
+			</Node>
+			<Node name="item0000000003">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="84"/>
+					<Prp name="click point y" type="I" value="341"/>
+					<Prp name="datetime" type="D" value="44757.3392476852"/>
+					<Prp name="image file name" type="S" value="tcvi73683.png"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object bottom" type="I" value="347"/>
+					<Prp name="object left" type="I" value="18"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.fGridConfig.PC.pgSearch.Panel5.bNewMod"/>
+					<Prp name="object right" type="I" value="126"/>
+					<Prp name="object top" type="I" value="323"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi73683.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="3"/>
+			</Node>
+			<Node name="item0000000004">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="149"/>
+					<Prp name="click point y" type="I" value="112"/>
+					<Prp name="datetime" type="D" value="44757.3392708333"/>
+					<Prp name="image file name" type="S" value="tcvi73684.png"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object bottom" type="I" value="316"/>
+					<Prp name="object left" type="I" value="12"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.fGridConfig.PC.pgSearch.gModels"/>
+					<Prp name="object right" type="I" value="841"/>
+					<Prp name="object top" type="I" value="78"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi73684.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="4"/>
+			</Node>
+			<Node name="item0000000005">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="190"/>
+					<Prp name="click point y" type="I" value="103"/>
+					<Prp name="datetime" type="D" value="44757.3392939815"/>
+					<Prp name="image file name" type="S" value="tcvi73685.png"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object bottom" type="I" value="117"/>
+					<Prp name="object left" type="I" value="100"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.fGridConfig.PC.pgSearch.gModels.TPowerDBGridInplaceEdit"/>
+					<Prp name="object right" type="I" value="196"/>
+					<Prp name="object top" type="I" value="99"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi73685.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="5"/>
+			</Node>
+			<Node name="item0000000006">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="66"/>
+					<Prp name="click point y" type="I" value="5"/>
+					<Prp name="datetime" type="D" value="44757.3393171296"/>
+					<Prp name="image file name" type="S" value="tcvi73686.png"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object bottom" type="I" value="100"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.TPopupDataList"/>
+					<Prp name="object right" type="I" value="96"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi73686.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="6"/>
+			</Node>
+			<Node name="item0000000007">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="238"/>
+					<Prp name="click point y" type="I" value="109"/>
+					<Prp name="datetime" type="D" value="44757.3393402778"/>
+					<Prp name="image file name" type="S" value="tcvi73687.png"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object bottom" type="I" value="316"/>
+					<Prp name="object left" type="I" value="12"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.fGridConfig.PC.pgSearch.gModels"/>
+					<Prp name="object right" type="I" value="841"/>
+					<Prp name="object top" type="I" value="78"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi73687.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="7"/>
+			</Node>
+			<Node name="item0000000008">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="284"/>
+					<Prp name="click point y" type="I" value="102"/>
+					<Prp name="datetime" type="D" value="44757.3393518519"/>
+					<Prp name="image file name" type="S" value="tcvi73688.png"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object bottom" type="I" value="117"/>
+					<Prp name="object left" type="I" value="197"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.fGridConfig.PC.pgSearch.gModels.TPowerDBGridInplaceEdit"/>
+					<Prp name="object right" type="I" value="293"/>
+					<Prp name="object top" type="I" value="99"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi73688.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="8"/>
+			</Node>
+			<Node name="item0000000009">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="70"/>
+					<Prp name="click point y" type="I" value="33"/>
+					<Prp name="datetime" type="D" value="44757.3393865741"/>
+					<Prp name="image file name" type="S" value="tcvi73689.png"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object bottom" type="I" value="100"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.TPopupDataList"/>
+					<Prp name="object right" type="I" value="96"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi73689.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="9"/>
+			</Node>
+			<Node name="item0000000010">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="330"/>
+					<Prp name="click point y" type="I" value="113"/>
+					<Prp name="datetime" type="D" value="44757.3394097222"/>
+					<Prp name="image file name" type="S" value="tcvi736810.png"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object bottom" type="I" value="316"/>
+					<Prp name="object left" type="I" value="12"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.fGridConfig.PC.pgSearch.gModels"/>
+					<Prp name="object right" type="I" value="841"/>
+					<Prp name="object top" type="I" value="78"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi736810.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="10"/>
+			</Node>
+			<Node name="item0000000011">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="379"/>
+					<Prp name="click point y" type="I" value="114"/>
+					<Prp name="datetime" type="D" value="44757.3394212963"/>
+					<Prp name="image file name" type="S" value="tcvi736811.png"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="object bottom" type="I" value="117"/>
+					<Prp name="object left" type="I" value="294"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.fGridConfig.PC.pgSearch.gModels.TPowerDBGridInplaceEdit"/>
+					<Prp name="object right" type="I" value="390"/>
+					<Prp name="object top" type="I" value="99"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi736811.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="11"/>
+			</Node>
+			<Node name="item0000000012">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="73"/>
+					<Prp name="click point y" type="I" value="21"/>
+					<Prp name="datetime" type="D" value="44757.3394328704"/>
+					<Prp name="image file name" type="S" value="tcvi736812.png"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object bottom" type="I" value="100"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.TPopupDataList"/>
+					<Prp name="object right" type="I" value="96"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi736812.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="12"/>
+			</Node>
+			<Node name="item0000000013">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="46"/>
+					<Prp name="click point y" type="I" value="614"/>
+					<Prp name="datetime" type="D" value="44757.3394675926"/>
+					<Prp name="image file name" type="S" value="tcvi736813.png"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="object bottom" type="I" value="624"/>
+					<Prp name="object left" type="I" value="8"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.fGridConfig.Panel1.pLeft.bOk"/>
+					<Prp name="object right" type="I" value="83"/>
+					<Prp name="object top" type="I" value="600"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi736813.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="13"/>
+			</Node>
+			<Prp name="key" type="S" value="{BB0FF51A-FE80-46BE-829B-AB19E2D77859}"/>
+		</Node>
+		<Prp name="signature" type="S" value="{42D2222C-ACA2-405F-8E67-05D5C42EB839}"/>
+		<Prp name="version" type="I" value="1"/>
+	</Node>
+</Nodes>

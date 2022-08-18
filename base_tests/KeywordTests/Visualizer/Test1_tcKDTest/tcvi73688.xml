@@ -1,0 +1,3619 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SysNodeInfo VersionKey="{1605F88C-9478-431C-8790-C51C5E0646CD}">
+<SysNode Left="-1" Top="-1" Right="-1" Bottom="-1">
+<SysNodeName MappedName="Sys" DefaultMappedName="Sys">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="Name" Value="Sys"/>
+<NameMappingProperty Name="Id" Value="-1"/>
+</NameMappingProperties>
+<SysNode Left="-1" Top="-1" Right="-1" Bottom="-1">
+<SysNodeName MappedName="Automedi" DefaultMappedName="Automedi">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ProcessName" Value="Automedi"/>
+</NameMappingProperties>
+<SysNode Left="0" Top="0" Right="853" Bottom="638">
+<SysNodeName MappedName="" DefaultMappedName="fGridConfig">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TfGridConfig"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="fGridConfig"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TfGridConfig</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Настройки</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>fGridConfig</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Close" InvokeKind="1" Priority="2000">
+<Description>Closes the specified Window object.</Description>
+<Param Name="WaitTimeout" VarType="3"><DefaultValue Value="2000"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Position" InvokeKind="1" Priority="1800">
+<Description>Sets the specified position and size for the specific Window object.</Description>
+<Param Name="Left" VarType="3"></Param><Param Name="Top" VarType="3"></Param><Param Name="Width" VarType="3"></Param><Param Name="Height" VarType="3"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>853</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>638</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+<SysNode Left="18" Top="62" Right="97" Bottom="76">
+<SysNodeName MappedName="" DefaultMappedName="Label2">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Label2"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TLabel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="Label2"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TLabel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Модели поиска:</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>Label2</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="624" Top="377" Right="742" Bottom="391">
+<SysNodeName MappedName="" DefaultMappedName="Label3">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Label3"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TLabel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="Label3"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TLabel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Высота строки (до 10):</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>Label3</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="20" Top="485" Right="153" Bottom="499">
+<SysNodeName MappedName="" DefaultMappedName="lBarcodeSearch">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="lBarcodeSearch"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TLabel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="lBarcodeSearch"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TLabel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Автопоиск по штрих-коду</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>lBarcodeSearch</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="12" Top="582" Right="124" Bottom="596">
+<SysNodeName MappedName="" DefaultMappedName="lblLocalParams">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="lblLocalParams"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TLabel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="lblLocalParams"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TLabel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Локальные настройки</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>lblLocalParams</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="797" Top="439" Right="832" Bottom="453">
+<SysNodeName MappedName="" DefaultMappedName="lbReloadData">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="lbReloadData"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TLabel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="lbReloadData"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TLabel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>секунд</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>lbReloadData</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="798" Top="374" Right="821" Bottom="395">
+<SysNodeName MappedName="" DefaultMappedName="pFont">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pFont"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TPMSB"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="pFont"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TPMSB</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value></Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>pFont</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="230" Top="456" Right="253" Bottom="478">
+<SysNodeName MappedName="" DefaultMappedName="bRunExtFld">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="bRunExtFld"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TPMSB"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="bRunExtFld"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TPMSB</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value></Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>bRunExtFld</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="303" Top="481" Right="326" Bottom="503">
+<SysNodeName MappedName="" DefaultMappedName="bBarcodeSearchExpr">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="bBarcodeSearchExpr"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TPMSB"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="bBarcodeSearchExpr"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TPMSB</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value></Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>bBarcodeSearchExpr</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="20" Top="531" Right="85" Bottom="545">
+<SysNodeName MappedName="" DefaultMappedName="DocFileNameLabel">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="DocFileNameLabel"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TLabel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="DocFileNameLabel"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TLabel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Стат.запрос:</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>DocFileNameLabel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="269" Top="531" Right="391" Bottom="545">
+<SysNodeName MappedName="" DefaultMappedName="Label9">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Label9"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TLabel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="Label9"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TLabel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Файл настроек колонок:</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>Label9</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="517" Top="531" Right="641" Bottom="545">
+<SysNodeName MappedName="" DefaultMappedName="Label10">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Label10"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TLabel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="Label10"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TLabel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Файл ресурсов колонок:</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>Label10</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="230" Top="544" Right="253" Bottom="566">
+<SysNodeName MappedName="" DefaultMappedName="btnReassignQuery">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="btnReassignQuery"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TPMSB"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="btnReassignQuery"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TPMSB</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value></Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>btnReassignQuery</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="620" Top="582" Right="737" Bottom="596">
+<SysNodeName MappedName="" DefaultMappedName="Label7">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Label7"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TLabel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="Label7"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TLabel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Глобальные настройки</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>Label7</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="8" Top="30" Right="845" Bottom="580">
+<SysNodeName MappedName="" DefaultMappedName="PC">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TPageControl"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="PC"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TPageControl</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>PC</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickTab" InvokeKind="1" Priority="2000">
+<Description>Selects the tabbed page specified by Item, which holds the page's caption or index, from 0.</Description>
+<Param Name="Item" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wFocusedTab" InvokeKind="2" Priority="1900">
+<Value>1</Value>
+<Description>Returns the index of the tab item that has the focus.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>837</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>550</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+<SysNode Left="12" Top="55" Right="841" Bottom="576">
+<SysNodeName MappedName="" DefaultMappedName="pgSearch">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TTabSheet"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="pgSearch"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TTabSheet</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Поиск</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>pgSearch</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>829</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>521</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+<SysNode Left="12" Top="350" Right="841" Bottom="528">
+<SysNodeName MappedName="" DefaultMappedName="SearchOptionsPanel">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TPanel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="SearchOptionsPanel"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TPanel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value></Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>SearchOptionsPanel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>829</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>178</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+<SysNode Left="20" Top="456" Right="228" Bottom="478">
+<SysNodeName MappedName="" DefaultMappedName="cbExtFieldsPanel">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="cbExtFieldsPanel"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TComboBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="cbExtFieldsPanel"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TComboBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>cbExtFieldsPanel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickItem" InvokeKind="1" Priority="2000">
+<Description>Selects the item, specified as an index, from 0, or a name.</Description>
+<Param Name="Item" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wItemCount" InvokeKind="2" Priority="1850">
+<Value>5</Value>
+<Description>Returns the total number of items in the combo box.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="wItem" InvokeKind="2" Priority="1800">
+<Description>Returns the name of the item specified by its index.</Description>
+<Param Name="Index" VarType="3"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wText" InvokeKind="2" Priority="1900">
+<Value>Доп. панель отключена</Value>
+<Description>Returns the control text.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="DropDown" InvokeKind="1" Priority="1500">
+<Description>Opens the control's drop-down window.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>208</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>22</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="161" Top="481" Right="304" Bottom="503">
+<SysNodeName MappedName="" DefaultMappedName="cbBarcodeSearch">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="cbBarcodeSearch"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TDBLookupComboBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="cbBarcodeSearch"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TDBLookupComboBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>cbBarcodeSearch</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>143</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>22</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="584" Top="413" Right="823" Bottom="435">
+<SysNodeName MappedName="" DefaultMappedName="cbSortMode">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="cbSortMode"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TComboBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="cbSortMode"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TComboBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>cbSortMode</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickItem" InvokeKind="1" Priority="2000">
+<Description>Selects the item, specified as an index, from 0, or a name.</Description>
+<Param Name="Item" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wItemCount" InvokeKind="2" Priority="1850">
+<Value>3</Value>
+<Description>Returns the total number of items in the combo box.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="wItem" InvokeKind="2" Priority="1800">
+<Description>Returns the name of the item specified by its index.</Description>
+<Param Name="Index" VarType="3"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wText" InvokeKind="2" Priority="1900">
+<Value>сортировка по умолчанию (на сервере)</Value>
+<Description>Returns the control text.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="DropDown" InvokeKind="1" Priority="1500">
+<Description>Opens the control's drop-down window.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>239</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>22</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="20" Top="358" Right="189" Bottom="375">
+<SysNodeName MappedName="" DefaultMappedName="fUsePR">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fUsePR"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TCheckBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="fUsePR"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TCheckBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Ограничить число записей:</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>fUsePR</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached.</Description>
+<Param Name="State" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wState" InvokeKind="2" Priority="1900">
+<Value>1</Value>
+<Description>Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>169</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>17</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="195" Top="357" Right="240" Bottom="379">
+<SysNodeName MappedName="" DefaultMappedName="fPR">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fPR"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TEdit"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="fPR"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TEdit</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>fPR</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetText" InvokeKind="1" Priority="1700">
+<Description>Enters text in the text editor.</Description>
+<Param Name="Text" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wText" InvokeKind="2" Priority="2000">
+<Value>50</Value>
+<Description>Contents of the edit control, as text string.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="wSelection" InvokeKind="2" Priority="1800">
+<Value></Value>
+<Description>Retrieves the selected text.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>45</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>22</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="52" Top="379" Right="302" Bottom="396">
+<SysNodeName MappedName="" DefaultMappedName="cbSavePR">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="cbSavePR"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TCheckBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="cbSavePR"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TCheckBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Установить по умолчанию</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>cbSavePR</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached.</Description>
+<Param Name="State" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wState" InvokeKind="2" Priority="1900">
+<Value>0</Value>
+<Description>Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>250</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>17</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="20" Top="418" Right="327" Bottom="435">
+<SysNodeName MappedName="" DefaultMappedName="cbLocalFilter">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="cbLocalFilter"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TCheckBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="cbLocalFilter"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TCheckBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Поиск среди загруженных записей</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>cbLocalFilter</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached.</Description>
+<Param Name="State" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wState" InvokeKind="2" Priority="1900">
+<Value>0</Value>
+<Description>Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>307</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>17</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="330" Top="358" Right="577" Bottom="375">
+<SysNodeName MappedName="" DefaultMappedName="cbShowLookup">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="cbShowLookup"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TCheckBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="cbShowLookup"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TCheckBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Отображать ссылки как поля ввода</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>cbShowLookup</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached.</Description>
+<Param Name="State" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wState" InvokeKind="2" Priority="1900">
+<Value>0</Value>
+<Description>Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>247</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>17</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="330" Top="438" Right="549" Bottom="455">
+<SysNodeName MappedName="" DefaultMappedName="cbLockLoadAll">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="cbLockLoadAll"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TCheckBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="cbLockLoadAll"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TCheckBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Блокировать кнопку &quot;Загрузить еще&quot;</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>cbLockLoadAll</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached.</Description>
+<Param Name="State" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wState" InvokeKind="2" Priority="1900">
+<Value>0</Value>
+<Description>Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>219</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>17</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="584" Top="438" Right="751" Bottom="455">
+<SysNodeName MappedName="" DefaultMappedName="cbReloadData">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="cbReloadData"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TCheckBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="cbReloadData"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TCheckBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Обновлять данные каждые:</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>cbReloadData</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached.</Description>
+<Param Name="State" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wState" InvokeKind="2" Priority="1900">
+<Value>0</Value>
+<Description>Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>167</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>17</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="748" Top="437" Right="792" Bottom="459">
+<SysNodeName MappedName="" DefaultMappedName="edReloadData">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="edReloadData"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TMaskEdit"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="edReloadData"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TMaskEdit</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>edReloadData</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>44</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>22</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>False</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="584" Top="395" Right="821" Bottom="410">
+<SysNodeName MappedName="" DefaultMappedName="cbDisableManualSort">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="cbDisableManualSort"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TCheckBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="cbDisableManualSort"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TCheckBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Отключить быструю сортировку</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>cbDisableManualSort</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached.</Description>
+<Param Name="State" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wState" InvokeKind="2" Priority="1900">
+<Value>0</Value>
+<Description>Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>237</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>15</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="20" Top="438" Right="256" Bottom="455">
+<SysNodeName MappedName="" DefaultMappedName="cbEmptyOnVoidFilter">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="cbEmptyOnVoidFilter"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TCheckBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="cbEmptyOnVoidFilter"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TCheckBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Скрывать данные при пустых фильтрах</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>cbEmptyOnVoidFilter</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached.</Description>
+<Param Name="State" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wState" InvokeKind="2" Priority="1900">
+<Value>0</Value>
+<Description>Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>236</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>17</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="330" Top="378" Right="580" Bottom="395">
+<SysNodeName MappedName="" DefaultMappedName="cbMemo">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="cbMemo"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TCheckBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="cbMemo"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TCheckBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Показывать мемо-поля</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>cbMemo</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached.</Description>
+<Param Name="State" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wState" InvokeKind="2" Priority="1900">
+<Value>0</Value>
+<Description>Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>250</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>17</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="748" Top="374" Right="792" Bottom="396">
+<SysNodeName MappedName="" DefaultMappedName="edRInLine">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="edRInLine"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TEdit"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="edRInLine"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TEdit</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>edRInLine</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetText" InvokeKind="1" Priority="1700">
+<Description>Enters text in the text editor.</Description>
+<Param Name="Text" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wText" InvokeKind="2" Priority="2000">
+<Value>1</Value>
+<Description>Contents of the edit control, as text string.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="wSelection" InvokeKind="2" Priority="1800">
+<Value></Value>
+<Description>Retrieves the selected text.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>44</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>22</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="330" Top="398" Right="580" Bottom="415">
+<SysNodeName MappedName="" DefaultMappedName="cbBriefCombo">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="cbBriefCombo"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TCheckBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="cbBriefCombo"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TCheckBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Иконки в условиях поиска</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>cbBriefCombo</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached.</Description>
+<Param Name="State" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wState" InvokeKind="2" Priority="1900">
+<Value>0</Value>
+<Description>Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>250</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>17</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="20" Top="506" Right="325" Bottom="523">
+<SysNodeName MappedName="" DefaultMappedName="chReloadRecAfterEditor">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="chReloadRecAfterEditor"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TCheckBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="chReloadRecAfterEditor"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TCheckBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Обновлять текущую строку после закрытия редактора</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>chReloadRecAfterEditor</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached.</Description>
+<Param Name="State" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wState" InvokeKind="2" Priority="1900">
+<Value>0</Value>
+<Description>Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>305</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>17</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="330" Top="418" Right="580" Bottom="435">
+<SysNodeName MappedName="" DefaultMappedName="cbSelectedAltColor">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="cbSelectedAltColor"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TCheckBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="cbSelectedAltColor"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TCheckBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Отображать альт. цвет для текущей строки</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>cbSelectedAltColor</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached.</Description>
+<Param Name="State" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wState" InvokeKind="2" Priority="1900">
+<Value>1</Value>
+<Description>Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>250</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>17</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="584" Top="357" Right="825" Bottom="374">
+<SysNodeName MappedName="" DefaultMappedName="chkOverrideWithProfileSettings">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="chkOverrideWithProfileSettings"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TCheckBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="chkOverrideWithProfileSettings"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TCheckBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Перекрывать настройками из профиля</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>chkOverrideWithProfileSettings</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached.</Description>
+<Param Name="State" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wState" InvokeKind="2" Priority="1900">
+<Value>0</Value>
+<Description>Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>241</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>17</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="584" Top="457" Right="838" Bottom="477">
+<SysNodeName MappedName="" DefaultMappedName="cbStoreFilterType">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="SearchOptionsPanel"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="cbStoreFilterType"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TCheckBox"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="cbStoreFilterType"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TCheckBox</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Запоминать вид фильтра для полей поиска</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>cbStoreFilterType</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached.</Description>
+<Param Name="State" VarType="12"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wState" InvokeKind="2" Priority="1900">
+<Value>0</Value>
+<Description>Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>254</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>20</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+</SysNode>
+<SysNode Left="12" Top="316" Right="841" Bottom="350">
+<SysNodeName MappedName="" DefaultMappedName="Panel5">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Panel5"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TPanel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="Panel5"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TPanel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value></Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>Panel5</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>829</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>34</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+<SysNode Left="133" Top="323" Right="241" Bottom="347">
+<SysNodeName MappedName="" DefaultMappedName="bDelMod">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Panel5"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="bDelMod"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TButton"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="bDelMod"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TButton</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Удалить</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>bDelMod</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Performs a single click on the specified button.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>108</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>24</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="18" Top="323" Right="126" Bottom="347">
+<SysNodeName MappedName="" DefaultMappedName="bNewMod">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Panel5"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="bNewMod"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TButton"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="bNewMod"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TButton</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Добавить модель</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>bNewMod</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Performs a single click on the specified button.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>108</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>24</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+</SysNode>
+<SysNode Left="12" Top="78" Right="841" Bottom="316">
+<SysNodeName MappedName="" DefaultMappedName="gModels">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="gModels"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TPowerDBGrid"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="gModels"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TPowerDBGrid</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>gModels</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>829</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>238</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+<SysNode Left="197" Top="99" Right="293" Bottom="117">
+<SysNodeName MappedName="" DefaultMappedName="TPowerDBGridInplaceEdit">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="gModels"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="TPowerDBGridInplaceEdit"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="WndClass" Value="TPowerDBGridInplaceEdit"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TPowerDBGridInplaceEdit</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value></Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>96</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>18</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+</SysNode>
+<SysNode Left="12" Top="55" Right="841" Bottom="78">
+<SysNodeName MappedName="" DefaultMappedName="Panel3">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Panel3"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TPanel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="Panel3"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TPanel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value></Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>Panel3</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>829</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>23</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="12" Top="528" Right="841" Bottom="576">
+<SysNodeName MappedName="" DefaultMappedName="Panel2">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Panel2"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TPanel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="Panel2"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TPanel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value></Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>Panel2</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>829</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>48</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+<SysNode Left="20" Top="545" Right="230" Bottom="567">
+<SysNodeName MappedName="" DefaultMappedName="DocFileNameEdit">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Panel2"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="DocFileNameEdit"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TEdit"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="DocFileNameEdit"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TEdit</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>DocFileNameEdit</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetText" InvokeKind="1" Priority="1700">
+<Description>Enters text in the text editor.</Description>
+<Param Name="Text" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wText" InvokeKind="2" Priority="2000">
+<Value>[BaseDir]\DBKERNEL\STAT\DRUGSVIEW_GLOSS.ini</Value>
+<Description>Contents of the edit control, as text string.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="wSelection" InvokeKind="2" Priority="1800">
+<Value></Value>
+<Description>Retrieves the selected text.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>210</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>22</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="269" Top="545" Right="502" Bottom="567">
+<SysNodeName MappedName="" DefaultMappedName="ColIniFileEdit">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Panel2"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="ColIniFileEdit"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TEdit"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="ColIniFileEdit"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TEdit</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>ColIniFileEdit</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetText" InvokeKind="1" Priority="1700">
+<Description>Enters text in the text editor.</Description>
+<Param Name="Text" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wText" InvokeKind="2" Priority="2000">
+<Value>[WorkDir]\USERPROFILE\USR_1\FORMS\GRIDS\DRUGSVIEW_GLOSS_PR_DRUGS.INI</Value>
+<Description>Contents of the edit control, as text string.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="wSelection" InvokeKind="2" Priority="1800">
+<Value></Value>
+<Description>Retrieves the selected text.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>233</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>22</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="517" Top="545" Right="750" Bottom="567">
+<SysNodeName MappedName="" DefaultMappedName="ColDatFileEdit">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="PC"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pgSearch"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Panel2"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="ColDatFileEdit"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TEdit"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="ColDatFileEdit"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TEdit</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>ColDatFileEdit</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetText" InvokeKind="1" Priority="1700">
+<Description>Enters text in the text editor.</Description>
+<Param Name="Text" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wText" InvokeKind="2" Priority="2000">
+<Value>[WorkDir]\UserProfile\usr_1\FORMS\Grids\DRUGSVIEW_GLOSS_PR_DRUGS.grid</Value>
+<Description>Contents of the edit control, as text string.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="wSelection" InvokeKind="2" Priority="1800">
+<Value></Value>
+<Description>Retrieves the selected text.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>233</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>22</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+</SysNode>
+</SysNode>
+</SysNode>
+<SysNode Left="12" Top="582" Right="124" Bottom="596">
+<SysNodeName MappedName="" DefaultMappedName="lblLocalParams">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="lblLocalParams"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TLabel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="lblLocalParams"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TLabel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Локальные настройки</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>lblLocalParams</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="797" Top="439" Right="832" Bottom="453">
+<SysNodeName MappedName="" DefaultMappedName="lbReloadData">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="lbReloadData"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TLabel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="lbReloadData"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TLabel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>секунд</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>lbReloadData</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="8" Top="580" Right="845" Bottom="630">
+<SysNodeName MappedName="" DefaultMappedName="Panel1">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Panel1"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TPanel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="Panel1"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TPanel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value></Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>Panel1</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>837</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>50</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+<SysNode Left="613" Top="580" Right="845" Bottom="630">
+<SysNodeName MappedName="" DefaultMappedName="pRight">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Panel1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pRight"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TPanel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="pRight"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TPanel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value></Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>pRight</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>232</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>50</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+<SysNode Left="770" Top="599" Right="845" Bottom="624">
+<SysNodeName MappedName="" DefaultMappedName="bLoadGl">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Panel1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pRight"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="bLoadGl"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TButton"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="bLoadGl"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TButton</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Загрузить</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>bLoadGl</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Performs a single click on the specified button.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>75</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>25</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="694" Top="599" Right="769" Bottom="624">
+<SysNodeName MappedName="" DefaultMappedName="bSaveAll">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Panel1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pRight"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="bSaveAll"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TButton"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="bSaveAll"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TButton</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Обновить</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>bSaveAll</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Performs a single click on the specified button.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>75</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>25</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="618" Top="599" Right="693" Bottom="624">
+<SysNodeName MappedName="" DefaultMappedName="bSaveGl">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Panel1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pRight"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="bSaveGl"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TButton"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="bSaveGl"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TButton</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Сохранить</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>bSaveGl</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Performs a single click on the specified button.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>75</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>25</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+</SysNode>
+<SysNode Left="8" Top="580" Right="305" Bottom="630">
+<SysNodeName MappedName="" DefaultMappedName="pLeft">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Panel1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pLeft"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TPanel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="pLeft"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TPanel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value></Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>pLeft</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>297</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>50</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+<SysNode Left="83" Top="600" Right="158" Bottom="624">
+<SysNodeName MappedName="" DefaultMappedName="bCancel">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Panel1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pLeft"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="bCancel"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TBitBtn"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="bCancel"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TBitBtn</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>&amp;Отмена</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>bCancel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Performs a single click on the specified button.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>75</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>24</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="8" Top="600" Right="83" Bottom="624">
+<SysNodeName MappedName="" DefaultMappedName="bOk">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Panel1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="pLeft"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="bOk"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TBitBtn"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="bOk"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TBitBtn</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>&amp;Применить</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>bOk</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Performs a single click on the specified button.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>75</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>24</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+</SysNode>
+</SysNode>
+<SysNode Left="20" Top="531" Right="85" Bottom="545">
+<SysNodeName MappedName="" DefaultMappedName="DocFileNameLabel">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="DocFileNameLabel"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TLabel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="DocFileNameLabel"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TLabel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Стат.запрос:</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>DocFileNameLabel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="620" Top="582" Right="737" Bottom="596">
+<SysNodeName MappedName="" DefaultMappedName="Label7">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Automedi"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="fGridConfig"/>
+</MethodCallInfo>
+<MethodCallInfo Name="VCLObject">
+<MethodCallInfoParam Value="Label7"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ClassName" Value="TLabel"/>
+<NameMappingProperty Name="NativeDelphiObject.Name" Value="Label7"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClassName" InvokeKind="2" Priority="500">
+<Value>TLabel</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Caption" InvokeKind="2" Priority="500">
+<Value>Глобальные настройки</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectIdentifier" InvokeKind="2" Priority="500">
+<Value>Label7</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="ObjectType" InvokeKind="2" Priority="500">
+<Value>VCLObject</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+</SysNode>
+</SysNode>
+</SysNode>
+</SysNodeInfo>
